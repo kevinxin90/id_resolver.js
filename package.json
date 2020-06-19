@@ -1,0 +1,29 @@
+{
+  "name": "@biothings-explorer/id_resolver",
+  "version": "1.0.0",
+  "description": "a nodejs package for resolving biomedical ids",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinxin90/id_resolver.js.git"
+  },
+  "keywords": [
+    "id",
+    "resolve",
+    "node"
+  ],
+  "author": "jiwen xin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinxin90/id_resolver.js/issues"
+  },
+  "homepage": "https://github.com/kevinxin90/id_resolver.js#readme",
+  "devDependencies": {
+    "coveralls": "^3.1.0",
+    "jest": "^26.0.1"
+  }
+}
